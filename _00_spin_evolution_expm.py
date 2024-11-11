@@ -3,7 +3,7 @@
 """
 Created on Fri Jan 13 09:36:28 2023
 
-@author: marcin
+@author: Marcin Plodzien
 """
 
 import os.path
