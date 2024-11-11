@@ -1,16 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Fri Jan 13 09:36:28 2023
-
-@author: marcin
+@author: Marcin Plodzien
 """
 
 import os.path
 from PIL import Image
-
 import itertools
-
 import matplotlib.pyplot as plt
 import torch as pt
 from torch import matrix_exp as expm
@@ -23,7 +19,7 @@ import sys
 import time
  
 L_vec = [2, 3, 4, 5, 6]
-L_vec = [6]
+
 duration = 600 # frame duration in [ms]
 frame_delta = 2
 for L in L_vec:
