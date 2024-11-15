@@ -7,7 +7,7 @@ Hamiltonians:
 3. Heisenberg XXZ: $\hat{H} = \sum_k \hat{\sigma}^x_k\hat{\sigma}^x_{k+1} +\hat{\sigma}^y_k\hat{\sigma}^y_{k+1} + \Delta\hat{\sigma}^z_k\hat{\sigma}^z_{k+1}$, $\Delta = \frac{1}{2}$
 
 Time-evolved state
-$|\psi(t)\rangle = e^{-it\hat{H}}|-\fraC{\pi}{2},0\rangle$, where $|\theta,\phi\rangle = e^{-i\phi\frac{\pi}{2}\sum_k\hat{\sigma}^z_k}e^{-i\theta\pi\sum_k\hat{\sigma}^x_k}|0\rangle\^{\otimes L}$
+$|\psi(t)\rangle = e^{-it\hat{H}}|-\frac{\pi}{2},0\rangle$, where $|\theta,\phi\rangle = e^{-i\phi\frac{\pi}{2}\sum_k\hat{\sigma}^z_k}e^{-i\theta\pi\sum_k\hat{\sigma}^x_k}|0\rangle\^{\otimes L}$
 
 Hussimi function is defined as:
 $Q(\theta,\phi;|\psi\rangle) = |\langle\theta,\phi|\psi\rangle|^2$.
